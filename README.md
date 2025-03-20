@@ -193,7 +193,7 @@ Para executar, precisei utilizar o serviço Azure IA Service, através os seguin
 
 3. O serviço foi aprovisionado quando recebi a mensagem Your deployment is complete:
 
-![Complete](./inputs/img00.png)
+![Complete](./src/img00.png)
 
 ## Explorando a conversão de voz em texto no Speech Studio
 
@@ -203,21 +203,21 @@ Para executar, precisei utilizar o serviço Azure IA Service, através os seguin
 
 - Selecionar recurso:
 
-![Selecionar recurso](./inputs/img02.png)
+![Selecionar recurso](./src/img02.png)
 
 3. Selecione https://aka.ms/mslearn-speech-files para baixar o Speech.zip. Abra a pasta.
 
 4. Na página Introdução à fala, em Fala para texto, localize "Fala em tempo real para texto". Selecione Experimente a fala em tempo real para texto:
 
-![Fala em texto](./inputs/img03.png)
+![Fala em texto](./src/img03.png)
 
 5. Em Escolher arquivos de áudio, selecione procurar arquivos e navegue até a pasta onde você salvou o arquivo. Selecione WhatAICanDo.m4a e abra o arquivo.
 
-![Resultado01](./inputs/img04.png)
+![Resultado01](./src/img04.png)
 
-![Resultado02](./inputs/img05.png)
+![Resultado02](./src/img05.png)
 
-![Resultado03](./inputs/img06.png)
+![Resultado03](./src/img06.png)
 
 6. O serviço Speech transcreve e exibe o texto em tempo real. Se você tiver áudio em seu computador, poderá ouvir a gravação enquanto o texto é transcrito.
 
@@ -231,7 +231,7 @@ Para executar, precisei utilizar o serviço Azure IA Service, através os seguin
 
 2. Clique no botão ＋Criar um recurso e procure por serviço de idioma. Selecione criar um plano de serviço de idiomas. Você será levado a uma página para selecionar recursos adicionais. Mantenha a seleção padrão e clique em Continuar para criar seu recurso.
 
-![Analise de Texto](./inputs/img07.png)
+![Analise de Texto](./src/img07.png)
 
 3. Na página Criar Idioma, configure-o com as seguintes configurações:
 > - Assinatura: sua assinatura do Azure.
@@ -241,15 +241,15 @@ Para executar, precisei utilizar o serviço Azure IA Service, através os seguin
 > - Nível de preços: F0 grátis ou S se F0 grátis não estiver disponível
 > - Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo: Selecionado.
 
-![Criação01](./inputs/img08.png)
+![Criação01](./src/img08.png)
 
-![Criação02](./inputs/img09.png)
+![Criação02](./src/img09.png)
 
-![Criação03](./inputs/img10.png)
+![Criação03](./src/img10.png)
 
 4. Selecione Revisar + criar e depois Criar e aguarde a conclusão da implantação.
 
-![Concluido](./inputs/img11.png)
+![Concluido](./src/img11.png)
 
 
 ## Explorando a análise de sentimentos com o Azure Language Studio
@@ -263,11 +263,11 @@ Para executar, precisei utilizar o serviço Azure IA Service, através os seguin
 > - Nome do recurso: selecione o recurso de serviço de idioma que você acabou de criar.
 Em seguida, selecione Concluído.
 
-![Selecionar recurso](./inputs/img12.png)
+![Selecionar recurso](./src/img12.png)
 
 3. Selecionei a feature Analyze sentiment and mine opinions, que fica dentro do grupo Classify text:
 
-![Feature](./inputs/img13.png)
+![Feature](./src/img13.png)
 
 4. Em Selecionar idioma do texto, selecione Inglês.
 
@@ -275,17 +275,17 @@ Em seguida, selecione Concluído.
 
 6. Em Digite seu próprio texto, carregue um arquivo ou use um dos textos de exemplo, peguei o arquivo de exemplo da documentação:
 
-![Texto escrito](./inputs/img14.png)
+![Texto escrito](./src/img14.png)
 
 7. Marque a caixa para confirmar que a demonstração incorrerá em uso e poderá incorrer em custos e selecione executar.
 
 8. Revise a saída. Observe que o documento é analisado quanto ao sentimento, assim como cada frase. 
 
-![Resultado da analise de sentimento 01](./inputs/img15.png)
+![Resultado da analise de sentimento 01](./src/img15.png)
 
-![Resultado da analise de sentimento 02](./inputs/img16.png)
+![Resultado da analise de sentimento 02](./src/img16.png)
 
-![Resultado da analise de sentimento 03](./inputs/img17.png)
+![Resultado da analise de sentimento 03](./src/img17.png)
 
 ### Links
 
